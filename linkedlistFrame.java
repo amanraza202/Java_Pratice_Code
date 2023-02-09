@@ -6,7 +6,7 @@ public class linkedlistFrame {
         obj.addFirst("a");
         obj.addFirst("is");
         obj.addFirst("This");
-        // System.out.println(obj);
+        System.out.println(obj);
         obj.removeLast();
         obj.removeFirst();
         for (int i = 0; i <obj.size() ; i++) {
