@@ -1,16 +1,16 @@
 import java.util.*;
 public class prac_set1 {
-    public static void main(String[] args) {
-        int a = 24;
-        int b = 25;
-        int c = 28;
-        int sum = a+b+c;
-        System.out.println(sum);
-    }
+    // public static void main(String[] args) {
+    //     int a = 24;
+    //     int b = 25;
+    //     int c = 28;
+    //     int sum = a+b+c;
+    //     System.out.println(sum);
+    // }
 }
 
 // question 2
-/*
+
 public class prac_set1 {
     public static void main(String[] args) {
         float a = 45.0f;
@@ -20,7 +20,7 @@ public class prac_set1 {
         System.out.println(sum);
     }
 }
-*/
+
 
 /* Question 3
 public class prac_set1{
