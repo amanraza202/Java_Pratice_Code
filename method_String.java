@@ -11,10 +11,10 @@ public class method_String {
         System.out.println(name.substring(4));
         System.out.println(name.substring(4,8));
         System.out.println(name.replace("Raza", "Khan"));
-        // System.out.println(name.startsWith("Ama"));
-        // System.out.println(name.endsWith("a"));
-        // System.out.println(name.charAt(5));
-        // System.out.println(name.indexOf("n"));
+        System.out.println(name.startsWith("Ama"));
+        System.out.println(name.endsWith("a"));
+        System.out.println(name.charAt(5));
+        System.out.println(name.indexOf("n"));
     }
     
 }
