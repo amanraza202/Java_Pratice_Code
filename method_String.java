@@ -8,9 +8,9 @@ public class method_String {
         String nontrim = "    Aman    Raza   ";
         System.out.println(nontrim.trim());
 
-        // System.out.println(name.substring(4));
-        // System.out.println(name.substring(4,8));
-        // System.out.println(name.replace("Raza", "Khan"));
+        System.out.println(name.substring(4));
+        System.out.println(name.substring(4,8));
+        System.out.println(name.replace("Raza", "Khan"));
         // System.out.println(name.startsWith("Ama"));
         // System.out.println(name.endsWith("a"));
         // System.out.println(name.charAt(5));
