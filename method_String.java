@@ -4,9 +4,9 @@ public class method_String {
         
         System.out.println(name.length());
         System.out.println(name.toLowerCase());
-        // System.out.println(name.toUpperCase());
-        // String nontrim = "    Aman    Raza   ";
-        // System.out.println(nontrim.trim());
+        System.out.println(name.toUpperCase());
+        String nontrim = "    Aman    Raza   ";
+        System.out.println(nontrim.trim());
 
         // System.out.println(name.substring(4));
         // System.out.println(name.substring(4,8));
