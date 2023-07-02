@@ -15,10 +15,10 @@ class Cookie{
 public class classAndPointer {
     public static void main(String[] args) {
         Cookie obj = new Cookie("Green");
-        // String ns = obj.getColor();
-        // System.out.println(ns);
+        String ns = obj.getColor();
+        System.out.println(ns);
         // After setting setcolor 
-        // obj.setColor("Blue");
-        // System.out.println(obj.getColor());
+        obj.setColor("Blue");
+        System.out.println(obj.getColor());
     }
 }
