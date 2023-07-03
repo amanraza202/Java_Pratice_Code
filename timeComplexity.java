@@ -49,9 +49,9 @@ public class timeComplexity {
     }
     public static void main(String[] args) {
         int n = 10;
-        // printItem(n); // Time complexity is O(2n) ---> O(n) [Drop all the constant]
-        // printItem2(n); // Time complexity is O(n^2)
-        // printItem3(n); // Time complexity is O(n^2)
+        printItem(n); // Time complexity is O(2n) ---> O(n) [Drop all the constant]
+        printItem2(n); // Time complexity is O(n^2)
+        printItem3(n); // Time complexity is O(n^2)
         // printIte m4(n); // Time complexity is O(1)
         // printItem5(a,b); // Time complexity is O(a+b)
 
