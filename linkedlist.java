@@ -122,30 +122,30 @@ class ll {
         return temp;
     }
 
-    // public boolean set(int index, int value){
-    //     Node temp = get(index);
-    //     while(temp != null){
-    //         temp.val = value;
-    //         return true;
-    //     }
-    //     return false;
-    // }
-    // public void atIndex(int index, int value){
-    //     if(index<0 || index>length){
-    //         System.out.println("Null");
-    //     }
-    //     if(index == 0){
-    //         prepend(value);
-    //     }
-    //     if(index == length){
-    //         append(value);
-    //     }
-    //     Node newNode = new Node(value);
-    //     Node temp = get(index-1);
-    //     newNode.next=temp.next;
-    //     temp.next = newNode;
-    //     length++;
-    // }
+    public boolean set(int index, int value){
+        Node temp = get(index);
+        while(temp != null){
+            temp.val = value;
+            return true;
+        }
+        return false;
+    }
+    public void atIndex(int index, int value){
+        if(index<0 || index>length){
+            System.out.println("Null");
+        }
+        if(index == 0){
+            prepend(value);
+        }
+        if(index == length){
+            append(value);
+        }
+        Node newNode = new Node(value);
+        Node temp = get(index-1);
+        newNode.next=temp.next;
+        temp.next = newNode;
+        length++;
+    }
 
     // public Node removeAtIndex(int index){
     //     if(index<0 || index> length){
