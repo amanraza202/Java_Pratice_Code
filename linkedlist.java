@@ -63,25 +63,25 @@ class ll {
 
     }
 
-    // public Node removeList() {
-    //     if (length == 0) {
-    //         return null;
-    //     }
-    //     Node temp = head;
-    //     Node pre = head;
-    //     while (temp.next != null) {
-    //         pre = temp;
-    //         temp = temp.next;
-    //     }
-    //     tail = pre;
-    //     tail.next = null;
-    //     length--;
-    //     if (length == 0) {
-    //         head = null;
-    //         tail = null;
-    //     }
-    //     return temp;
-    // }
+    public Node removeList() {
+        if (length == 0) {
+            return null;
+        }
+        Node temp = head;
+        Node pre = head;
+        while (temp.next != null) {
+            pre = temp;
+            temp = temp.next;
+        }
+        tail = pre;
+        tail.next = null;
+        length--;
+        if (length == 0) {
+            head = null;
+            tail = null;
+        }
+        return temp;
+    }
 
     // public void prepend(int value) {
     //     Node new_node = new Node(value);
