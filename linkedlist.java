@@ -147,25 +147,25 @@ class ll {
         length++;
     }
 
-    // public Node removeAtIndex(int index){
-    //     if(index<0 || index> length){
-    //         System.out.println("Null");
-    //     }
-    //     if(index == 0){
-    //         removeFirst();
-    //     }
-    //     if(index== length-1){
-    //         removeList();
-    //     }
-    //     Node pre = get(index -1);
-    //     Node temp = pre.next;
+    public Node removeAtIndex(int index){
+        if(index<0 || index> length){
+            System.out.println("Null");
+        }
+        if(index == 0){
+            removeFirst();
+        }
+        if(index== length-1){
+            removeList();
+        }
+        Node pre = get(index -1);
+        Node temp = pre.next;
 
-    //     pre.next = temp.next;
-    //     temp.next = null;
-    //     length--;
+        pre.next = temp.next;
+        temp.next = null;
+        length--;
 
-    //     return temp;
-    // }
+        return temp;
+    }
 }
 
 public class linkedlist {
