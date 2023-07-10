@@ -1,35 +1,35 @@
-package JavaExercise1;
+// package JavaExercise1;
 
 import java.util.Scanner;
 
 public class Allquestion {
-    // public static void printAvg(int a, int b, int c){
-    //     float avg = (a+b+c)/3;
-    //     System.out.println("Average of three number is: "+avg);
-    // }
+    public static void printAvg(int a, int b, int c){
+        float avg = (a+b+c)/3;
+        System.out.println("Average of three number is: "+avg);
+    }
 
 
     // Question 2
-    // public static void sumOfOdd(int n){
-    //     int sumofodd =0;
-    //     for(int i =1; i<=n; i++){
-    //         if(i%2!=0){
-    //             sumofodd += i;
-    //         }
-    //     }
-    //     System.out.println(sumofodd);
-    // }
+    public static void sumOfOdd(int n){
+        int sumofodd =0;
+        for(int i =1; i<=n; i++){
+            if(i%2!=0){
+                sumofodd += i;
+            }
+        }
+        System.out.println(sumofodd);
+    }
 
 
     // Question 3
-    // public static void greatestNumber(int a , int b){
-    //     if(a>b){
-    //         System.out.println("a is greater "+a);
-    //     }
-    //     else{
-    //         System.out.println("b is greater "+b);
-    //     }
-    // }
+    public static void greatestNumber(int a , int b){
+        if(a>b){
+            System.out.println("a is greater "+a);
+        }
+        else{
+            System.out.println("b is greater "+b);
+        }
+    }
 
     // Question 4
     // public static double circumferenceOfRadius(double r){
