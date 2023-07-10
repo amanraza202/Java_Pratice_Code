@@ -32,18 +32,18 @@ public class Allquestion {
     }
 
     // Question 4
-    // public static double circumferenceOfRadius(double r){
-    //     double cir = 2 * 3.14 * r;
-    //     return cir;
-    // }
+    public static double circumferenceOfRadius(double r){
+        double cir = 2 * 3.14 * r;
+        return cir;
+    }
 
 
     // Question 8
-    // public static void powerOfNumber(Double x, Double n){
-    //     double pow = Math.pow(x, n);
-    //     System.out.println(pow);
+    public static void powerOfNumber(Double x, Double n){
+        double pow = Math.pow(x, n);
+        System.out.println(pow);
 
-    // }
+    }
 
     // Question 10
     public static void fibonacci(int n){
