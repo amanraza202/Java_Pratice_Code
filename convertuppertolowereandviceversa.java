@@ -1,4 +1,4 @@
-package StringBuilder;
+// package StringBuilder;
 
 public class convertuppertolowereandviceversa {
     public static void main(String[] args) {

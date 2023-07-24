@@ -1,4 +1,4 @@
-package StringBuilder;
+// package StringBuilder;
 
 public class compressed {
     public static void main(String[] args) {
