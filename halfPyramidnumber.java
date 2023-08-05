@@ -1,4 +1,4 @@
-package pattern;
+// package pattern;
 
 public class halfPyramidnumber {
     public static void main(String[] args) {

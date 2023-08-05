@@ -1,4 +1,4 @@
-package pattern;
+// package pattern;
 
 public class triangle_0_1 {
     public static void main(String[] args) {

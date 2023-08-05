@@ -1,4 +1,4 @@
-package DataType;
+// package DataType;
 
 public class datatype {
     public static void main(String[] args) {

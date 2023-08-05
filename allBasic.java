@@ -1,4 +1,4 @@
-package GeeksForGeeks;
+// package GeeksForGeeks;
 
 public class allBasic {
     public static void main(String[] args) {
