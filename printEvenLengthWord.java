@@ -1,4 +1,4 @@
-package String;
+// package String;
 
 public class printEvenLengthWord {
     public static void main(String[] args) {
