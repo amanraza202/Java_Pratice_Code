@@ -6,8 +6,8 @@ class string{
         // System.out.println(str.length());
         // System.out.println(str.charAt(3));
         // System.out.println(str.indexOf('l'));
-        System.out.println(str.compareTo(str1));
-        // System.out.println(str.contains("hel"));
+        // System.out.println(str.compareTo(str1));
+        System.out.println(str.contains("hel"));
         // System.out.println(str.startsWith("h"));
         // System.out.println(str.endsWith("lo"));
         // System.out.println(str.toLowerCase());
