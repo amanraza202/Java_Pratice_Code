@@ -9,8 +9,8 @@ class string{
         // System.out.println(str.compareTo(str1));
         // System.out.println(str.contains("hel"));
         // System.out.println(str.startsWith("h"));
-        System.out.println(str.endsWith("lo"));
-        // System.out.println(str.toLowerCase());
+        // System.out.println(str.endsWith("lo"));
+        System.out.println(str.toLowerCase());
         // System.out.println(str.toUpperCase());
         // String s1 ="abc";
         // String s2 = "def";
