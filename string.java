@@ -4,8 +4,8 @@ class string{
         String str = "hello";
         String str1 = "abc";
         // System.out.println(str.length());
-        System.out.println(str.charAt(3));
-        // System.out.println(str.indexOf('l'));
+        // System.out.println(str.charAt(3));
+        System.out.println(str.indexOf('l'));
         // System.out.println(str.compareTo(str1));
         // System.out.println(str.contains("hel"));
         // System.out.println(str.startsWith("h"));
