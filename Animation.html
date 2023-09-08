@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0; 
+    }
+     .container{
+        background-color: red;
+        height: 50vh;
+    }
+     .box{
+        border: 2px solid black; 
+         display: inline-block; 
+        
+       /*  transform: rotate(0.25turn);
+        transform-origin: 0; */
+        /* transform: skew(4deg ,6deg); */
+        
+    } 
+    img{
+        /* transform:translate(125px,14px); */
+        height: 150px;
+        /* transition-property: height;
+        transition-duration: 3s;
+        transition-timing-function:ease-in; */
+        transition: height 3s ease-in-out 2s;
+    } 
+    img:hover{
+        height: 100px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <img id="myImage" src="../image/background.webp" alt="">
+            <button id="btn">Toggle</button>
+        </div>
+    </div>
+    
+</body>
+<script>
+btn.addEventListener("click",()=>{
+    myImage.style.height="404px";
+})
+</script>
+</html>
